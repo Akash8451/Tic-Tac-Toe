@@ -23,6 +23,9 @@ This is a simple implementation of the classic Tic Tac Toe game.
 
 1. Open the `index.html` file in your browser to start the game.
 
+2. Click the below link to play directly:
+   ## [Play Tic Tac Toe](https://akash8451.github.io/Tic-Tac-Toe/)
+
 ## Contributing
 
 1. Fork the repository
