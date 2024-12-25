@@ -16,7 +16,7 @@ This is a simple implementation of the classic Tic Tac Toe game.
     ```
 2. Navigate to the project directory:
     ```sh
-    cd tic-tac-toe
+    cd Tic-Tac-Toe
     ```
 
 ## Usage
