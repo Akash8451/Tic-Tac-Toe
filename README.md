@@ -12,24 +12,16 @@ This is a simple implementation of the classic Tic Tac Toe game.
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/tic-tac-toe.git
+    git clone https://github.com/Akash8451/Tic-Tac-Toe
     ```
 2. Navigate to the project directory:
     ```sh
     cd tic-tac-toe
     ```
-3. Install dependencies:
-    ```sh
-    npm install
-    ```
 
 ## Usage
 
-1. Start the game:
-    ```sh
-    npm start
-    ```
-2. Open your browser and navigate to `http://localhost:3000`
+1. Open the `index.html` file in your browser to start the game.
 
 ## Contributing
 
