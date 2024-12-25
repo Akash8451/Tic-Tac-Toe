@@ -17,12 +17,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    max-height: 100vh; /* Ensure no vertical scroll */
     flex-direction: column;
     font-family: 'Press Start 2P', cursive;
     background: var(--background-color);
     color: var(--text-color);
     margin: 0;
     padding: 20px;
+    overflow: hidden; /* Prevent scrolling */
 }
 
 h1 {
