@@ -25,6 +25,18 @@ body {
     margin: 0;
     padding: 20px;
     overflow: hidden; /* Prevent scrolling */
+    position: relative;
+}
+
+body::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 h1 {
