@@ -34,12 +34,10 @@
         <div data-winning-message-text></div>
         <button id="restartButton">Restart</button>
     </div>
-    <!-- audio elements use data-src and are lazy-loaded by script.js -->
-    <audio id="clickSound" data-src="./click_xo.wav"></audio>
-    <audio id="winSound" data-src="./win_TTT.wav"></audio>
-    <audio id="drawSound" data-src="./draw_TTT.wav"></audio>
-    <audio id="bgm" data-src="./tictacttoe_bgm.wav" loop></audio>
-    <!-- Load script as an ES module (deferred by default) -->
-    <script type="module" src="script.js"></script>
+    <audio id="clickSound" src="./click_xo.wav"></audio>
+    <audio id="winSound" src="./win_TTT.wav"></audio>
+    <audio id="drawSound" src="./draw_TTT.wav"></audio>
+    <audio id="bgm" src="./tictacttoe_bgm.wav" loop volume="1.0"></audio>
+    <script src="script.js"></script>
 </body>
 </html>
